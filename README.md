@@ -7,11 +7,13 @@ Powershell scripts to aggregate domain names for adblocking into 1 file.
 * takes a lot of time to run through large lists. 
 
 use cases:
+-----------------------------
 example 1: .\noip_to_adblock_or_hosts.ps1 -list .\noip_hostname.txt -filter hosts -out_file sorted_hosts.list
             
 example 2: .\noip_to_adblock_or_hosts.ps1 -list .\noip_hostname.txt -filter adblock -out_file sorted_adblock.list
 
 example 3: .\.\noip_to_adblock_or_hosts.ps1 -url raw_url_paths.txt -filter hosts -out_file sorted_hosts.list
+------------------------------
 
 no-ip as the name implies has no ip addresses and is a list of domain names: domain.com
 adblock and adguard begin each line with a double pipe and end with a caret: ||domain.com^

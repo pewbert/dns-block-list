@@ -17,7 +17,8 @@ where list is the path to a file with a list of valid domain names.
 if you supply a url then a list will be created.
 if you have a list already then provide that and no url will be necessary.
 
-no-ip as the name implies has no ip addresses and is a list of domain names: domain.com
-adblock and adguard begin each line with a double pipe and end with a caret: ||domain.com^
-hosts is formatted like /etc/hosts or c:\windows\system32\drivers\etc\hosts: 0.0.0.0 domain.com
+* no-ip as the name implies has no ip addresses and is a list of domain names: >         domain.com
+* adblock and adguard begin each line with a double pipe and end with a caret: >       ||domain.com^
+* hosts is formatted like /etc/hosts or c:\windows\system32\drivers\etc\hosts: > 0.0.0.0 domain.com
+
 Use it however you like. I don't care.

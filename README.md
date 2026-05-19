@@ -1,4 +1,4 @@
-# aggregate_block_list
+# domain_block_list
 
 Powershell scripts to aggregate domain names for adblocking into 1 file. 
 * Converts the no-ip format to either adblock or hosts.

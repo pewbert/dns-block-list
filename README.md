@@ -12,7 +12,7 @@ example 1: .\noip_to_adblock_or_hosts.ps1 -list .\noip_hostname.txt -filter host
             
 example 2: .\noip_to_adblock_or_hosts.ps1 -list .\noip_hostname.txt -filter adblock -out_file sorted_adblock.list
 
-example 3: .\.\noip_to_adblock_or_hosts.ps1 -url raw_url_paths.txt -filter hosts -out_file sorted_hosts.list
+example 3: .\noip_to_adblock_or_hosts.ps1 -url raw_url_paths.txt -filter hosts -out_file sorted_hosts.list
 ------------------------------
 
 no-ip as the name implies has no ip addresses and is a list of domain names: domain.com
